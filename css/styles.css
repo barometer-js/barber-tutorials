@@ -1,0 +1,123 @@
+body {
+  font-family: "Catamaran", sans-serif;
+}
+
+.container {
+  width: 1920px;
+  outline: auto;
+}
+
+.container {
+  display: flex;
+  padding-left: 170px;
+  padding-right: 213px;
+}
+/* ===== commands ===== */
+
+/* ====== header ======*/
+.logo-wapper {
+  position: relative;
+}
+
+.logo-text {
+  position: absolute;
+  padding-top: 5px;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.button-list {
+  display: flex;
+}
+
+.navigation-list li {
+  margin-left: 20px;
+}
+
+.navigation-list a {
+  font-size: 25px;
+  line-height: 1.84;
+  font-weight: 500;
+  padding: 67px 14px 8px;
+  display: block;
+  color: black;
+}
+
+.button-list li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navigation-list a:hover {
+  background-color: #a3c1ef;
+  color: white;
+  border-radius: 5px;
+}
+
+.button-list button {
+}
+
+.appointment {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03;
+  color: white;
+}
+/* ======= end header ====== */
+
+/* ======== hero ======= */
+.hero {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 1.33;
+  color: #163561;
+}
+
+.first-word-hero-title {
+  color: #fbb400;
+}
+
+.hero-discription {
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #153461;
+  opacity: 0.65;
+}
+
+.container {
+  display: ;
+}
+
+/* ===== history ====== */
+.history .container {
+  padding-left: 1199px;
+  padding-right: 195px;
+  padding-top: 288px;
+  padding-bottom: 175px;
+  background: url() left top, url() left, url() right top;
+  background-repeat: no-repeat;
+}
+
+.history-last {
+  margin-top: 80px;
+  margin-bottom: 108px;
+}
+
+.history-item {
+  width: 526px;
+}
+
+.history-item:not(:last-child) {
+  margin-bottom: 48px;
+}
+/* ===== end history ====== */
+.services-list {
+  display: flex;
+}
+
+.services-item:not(:last-child) {
+  margin-right: 45px;
+}
